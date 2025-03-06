@@ -1,0 +1,44 @@
+.posts {
+    width: 80%;
+    margin: 20px auto;
+}
+.navbar {
+    background-color: #5F6F6F;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.logout {
+    margin-right: 0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.search-container input,
+.search-container button {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container button {
+    margin-left: 10px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+

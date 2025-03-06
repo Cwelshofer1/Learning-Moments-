@@ -1,4 +1,7 @@
+import { PostListRendering } from "./components/AllPosts.jsx"
 
 export const App = () => {
-  return <div>Hello World!</div>
+  return <>
+ <PostListRendering />
+  </>
 }
